@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } 
+ 
+ header {
+    background-color: #9c1328;
+    color: white;
+    text-align: center;
+    padding: 20px;
+ }
+ 
+ nav {
+    background-color: #d73e3e;
+    padding: 10px;
+    text-align: center;
+ }
+ 
+ 
+ nav ul {
+    list-style: none;
+  }
+ 
+ 
+ nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+ 
+ 
+ nav ul li a {
+    color: white;
+    text-decoration: none;
+ }
+ 
+ .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+ }
+
+
+  
+ .content {
+    flex: 2;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #ECF0F1;
+    border-radius: 10px;
+ }
+
+ label {
+   font-weight: bold;
+   display: block;
+   margin-top: 10px;
+}
+
+
+
+/* ver 2 */
+.radio-group, .checkbox-group {
+   display: flex;
+   flex-direction: column; /* Stack items vertically */
+   gap: 5px;
+}
+
+.radio-group label, .checkbox-group label {
+   display: flex;
+   align-items: center;
+   justify-content: space-between; /* Keep text on left, input on right */
+   width: 500px; /* Adjust width to align properly */
+   font-weight: normal;
+}
+
+select {
+   width: 868px;  
+   height: 25px; 
+   font-size: 18px; 
+   padding: 10px;  
+ }
+
+ .sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #BDC3C7;
+    border-radius: 10px;
+    margin-left: 20px;
+ }
+ 
+ footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2C3E50;
+    color: white;
+    margin-top: 20px;
+ }
+ 
+ .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #db343f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    width: 999px; 
+    height: 40px;
+ }
+ 
+ .btn:hover {
+    background-color: #2980B9;
+    transform: scale(1.1);
+ }
+ 
