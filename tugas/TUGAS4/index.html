@@ -15,7 +15,7 @@
                 let num = parseFloat(document.getElementById("nilai").value);
                 let grade = "";
 
-                if (isNaN(num) || num < 0 || num > 100) { 
+                if ( num < 0 || num > 100) { 
                     grade = "Nilai tidak valid!";
                 } else if (num <= 49) {
                     grade = "E";
