@@ -32,6 +32,7 @@ This repository is intended to:
 
 - All work in this repository is completed by me as part of my coursework unless otherwise noted.
 - Some folders may contain group projects; contributions are explained in each folder’s README's.
+- This is for learning purpose only, 
 
 ## 📌 Author
 
@@ -39,5 +40,11 @@ This repository is intended to:
 - Course: Web Programming (PBW)  
 - University: Universitas Singaperbangsa Karawang
 
----
+## 📝 Disclaimer
 
+This repository is created for **learning purposes only**.  
+It contains my personal coursework, practice exercises, and experiments from the Web Programming (PBW) class.
+I do not claim that this is the best way to structure or solve each problem — these files are meant to serve as **references only**, not as official guides.
+Please feel free to learn from the code, but use your own judgment and consult other sources when applying it in real projects.
+
+---
