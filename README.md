@@ -15,6 +15,9 @@ The Web Programming (PBW) course covers the fundamentals of building dynamic and
 - Web Hosting basics, etc
 
 ## 📁 Repository Structure
+The folder are structured by the name of the week / syllabus given my the lecturer e.g : 
+- "BAB x" means this is the material from BAB x syllabus 
+- "TUGAS x" means this is the task i solved from the TUGAS x syllabus
 
 
 
